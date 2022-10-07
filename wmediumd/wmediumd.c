@@ -694,7 +694,7 @@ int main(int argc, char *argv[])
 
 	// Convert IPv4 and IPv6 addresses from text to binary
 	// form
-	if (inet_pton(AF_INET, "192.168.1.3", &serv_addr.sin_addr)
+	if (inet_pton(AF_INET, "130.192.238.12", &serv_addr.sin_addr)
 		<= 0) {
 		return -1;
 	}
